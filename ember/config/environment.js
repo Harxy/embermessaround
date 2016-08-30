@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'focusfrontend',
+    modulePrefix: 'frontend',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',

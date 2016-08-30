@@ -1,0 +1,11 @@
+Hello from Notes
+
+{{#each model as |note|}}
+{{#link-to "notes.note" note}}
+<p>Hello from {{note.name}}</p>
+{{/link-to}}
+{{/each}}
+
+{{outlet}}
+
+{{#link-to 'index' tagName="button"}}Back{{/link-to}}
